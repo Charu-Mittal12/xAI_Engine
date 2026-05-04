@@ -24,8 +24,8 @@ Given a listing's attributes (location, room type, amenities, host experience, r
 │   ├── explain.py              # LIME + SHAP explainability
 │   ├── model_comparision.py    # Comparison visualizations
 │   ├── visualize.py            # Shared plotting utilities
-│   └── utils.py                # Logging, I/O helpers
-├── pipeline.py                 # Main entry point
+│   └── utils.py                 # Logging, I/O helpers 
+│   └──pipeline.py              # Main entry point
 └── outputs/                    # All artifacts saved here (auto-created)
 ```
 
@@ -64,7 +64,7 @@ cp /path/to/your/data.csv data/AirbnbData.csv
 
 ```bash
 # Default run
-python pipeline.py
+python src.pipeline.py
 
 # Custom file and observation index for LIME/SHAP
 python pipeline.py --file MyData.csv --obs 5
