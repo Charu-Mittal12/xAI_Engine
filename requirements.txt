@@ -1,0 +1,10 @@
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.4
+xgboost>=2.0
+catboost>=1.2
+shap>=0.44
+lime>=0.2.0.1
+streamlit>=1.35
+matplotlib>=3.8
+seaborn>=0.13
