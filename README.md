@@ -1,6 +1,7 @@
 #  Airbnb Price Prediction Pipeline
 
 An end-to-end ML pipeline to predict Airbnb listing nightly prices using log-transformed regression models with full explainability. 
+
 ---
 ## Dataset
 https://www.kaggle.com/datasets/rupindersinghrana/airbnb-price-dataset/data 
